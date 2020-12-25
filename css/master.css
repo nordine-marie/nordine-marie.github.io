@@ -191,8 +191,9 @@ color : white ;
   font-size : 25px ;
 }
 
-
-
+p > strong {
+  font-weight: bold;
+}
 
 
 /* ---END
