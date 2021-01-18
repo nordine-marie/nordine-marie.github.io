@@ -53,6 +53,27 @@ div.bottombanner {
   background-color: #4674C1 ;
 }
 
+
+div.row {
+  display: flex ;
+  flex-direction: row ;
+  position: absolute;
+}
+
+div.languages {
+  left : 5 ;
+  top : 5 ;
+}
+
+span.language {
+  margin-right : 5 ;
+  cursor: pointer;
+}
+
+span.language.selected {
+  font-weight: bold;
+}
+
 div.column {
   display: flex ;
   flex-direction: column ;
