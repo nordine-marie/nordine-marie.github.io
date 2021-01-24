@@ -37,6 +37,17 @@ header {
   width : 100% ;
 }
 
+div.resume {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+div.resume > h3 {
+  margin-top: 0px;
+  color : #4674C1;
+  font-size: 25px;
+}
+
 img.me {
   display : block ;
   max-width : 125px ;
@@ -111,6 +122,7 @@ h1 {
 h2 {
   font-size: 22px;
   margin-top: 0px;
+  margin-right: 20px;
 }
 
 main {
