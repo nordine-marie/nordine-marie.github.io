@@ -29,6 +29,14 @@
   font-weight: 500 ;
 }
 
+strong {
+  font-weight: bold ;
+}
+
+em {
+  color: #4674C1;
+}
+
 header {
   margin-top: 50px ;
   display : flex ;
@@ -38,8 +46,9 @@ header {
 }
 
 div.resume {
+  margin-top: 50px;
   text-align: center;
-  padding-bottom: 35px;
+  padding-bottom: 100px;
 }
 
 div.resume > h3 {
@@ -88,7 +97,7 @@ span.language.selected {
 div.column {
   display: flex ;
   flex-direction: column ;
-  position: absolute;
+  position: fixed;
   right : 0 ;
 }
 
@@ -173,7 +182,41 @@ div.social > a > i {
   margin-right : 10px ;
 }
 
-/* Portfolio */
+div.portfolio {
+  width: 100% ;
+  height: 25% ;
+  display: flex ;
+  flex-direction: column;
+}
+
+div.card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+div.card_title {
+  margin-top: 5px;
+}
+
+div.card:last-child > div.card_title {
+  padding-bottom: 0px;
+}
+
+
+div.card > img, div.card > a > img {
+  width : 80% ;
+  max-width: 500px ;
+  border-radius: 7px;
+}
+
+div.miscellaneous {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Portfolio
 
 body.portfolio {
   background-color: #4674C1 ;
