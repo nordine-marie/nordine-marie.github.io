@@ -37,6 +37,13 @@ em {
   color: #4674C1;
 }
 
+#particles-js {
+    position : fixed;
+    width:99%;
+    height:100%;
+    z-index:-1;
+}
+
 header {
   margin-top: 50px ;
   display : flex ;
